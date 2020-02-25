@@ -6,7 +6,6 @@ import pcg_domax_knn.cdm as cdm
 indeks = []
 num_ko_dalej = []
 
-
 def knn_kon (dane_do_knn, podaj_numer_kon, ilu_kontrahentow):
     global indeks
     global num_ko_dalej
