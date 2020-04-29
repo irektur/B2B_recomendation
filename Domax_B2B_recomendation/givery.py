@@ -6,7 +6,8 @@ import pandas as pd
 
 def main():
     # numer kontrahenta dla którego wykonujemy całość
-    podaj_numer_kon = int(input())
+    podaj_numer_kon = int(input()) #20112
+    minimalna_ranga = int(input()) #0
 
     # łączenie z mssql z bazą customers_KNN
     ## dane do Gaussian Mixture
@@ -34,6 +35,14 @@ def main():
     # lista rekomendacji
     cdm.rekomendacje_f(cdm.server, cdm.database, cdm.username, cdm.password)
     cdm.rekomendacje['NUMER_KONTRAHENTA'] = podaj_numer_kon
+    cdm.rekomendacje =  cdm.rekomendacje.loc[cdm.rekomendacje['ranga'] > minimalna_ranga]
+
+    # lista indeksów kupowanych przez głównego kontrahenta
+    cdm.jup_kupowane(cdm.server, cdm.database, cdm.username, cdm.password,podaj_numer_kon)
+    cdm.kupowane['NUMER_KONTRAHENTA'] = podaj_numer_kon
+
+    # połączenie rekomendacji i pozycji kupowanych
+    cdm.rekomendacje = cdm.rekomendacje.append(cdm.kupowane)
 
     # usunięcie danych z b2b.DMX_GVY_PROPOZYCJE
     cora.ora_krok_1_del(cora.Host_Name,cora.Port_Number,cora.s_name,cora.user,cora.password, podaj_numer_kon)

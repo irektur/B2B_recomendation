@@ -5,6 +5,7 @@ import pandas as pd
 kontrahent_indeksy = []
 krok_1_dane_GM = []
 rekomendacje = []
+kupowane = []
 server = r'tcp:192.168.0.201'
 database = 'customers_KNN'
 username = 'KNN'
@@ -107,3 +108,17 @@ def rekomendacje_f(server, database, username, password):
               ,ile_razy_detal as RANGA
           FROM customers_KNN.dbo.rekomendacje_podobnych''', cnxnn)
     cnxnn.close()
+
+# czytaj dotychczas kupowane
+def jup_kupowane(server, database, username, password, podaj_numer_kon):
+    cnxn = podbc.connect(
+        'DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
+    cursor = cnxn.cursor()
+
+    global kupowane
+    kupowane = pd.read_sql_query(
+        '''SELECT distinct  indeks_czesci_uslugi as indeks_czesci, 11 as ranga
+        FROM customers_KNN.dbo.kontrahent_indeksy 
+        where numer_kontrahenta = (SELECT  [Numer_kontrahenta]
+		 FROM customers_KNN.dbo.jup_kont_glowny) ''', cnxn)
+    cnxn.close()

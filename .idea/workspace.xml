@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9eb63e1-15fd-489f-aaed-a46d81e034a0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Domax_B2B_recomendation/givery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pcg_domax_knn/cora.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcg_domax_knn/GaussianMixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/GaussianMixture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcg_domax_knn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcg_domax_knn/cdm.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/cdm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcg_domax_knn/knn_fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/knn_fit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domax_B2B_recomendation/givery.py" beforeDir="false" afterPath="$PROJECT_DIR$/Domax_B2B_recomendation/givery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domax_B2B_recomendation/pcg_domax_knn/cdm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Domax_B2B_recomendation/pcg_domax_knn/cdm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/drive/ds/jdsz3_zd/11_python/ireneusz_tur_XO" />
+    <property name="last_opened_file_path" value="C:/PRACA/gvy/Domax_B2B_recomendation/givery.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -187,34 +184,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="614" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582022366633" />
-    <state x="281" y="175" key="FileChooserDialogImpl" timestamp="1588152909358">
+    <state x="281" y="175" key="FileChooserDialogImpl" timestamp="1588162613972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="281" y="175" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588152909358" />
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1588153242335">
+    <state x="281" y="175" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588162613972" />
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1588165255716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588165255716" />
     <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
-    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1588153242335">
+    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1588165255715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588165255715" />
     <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
-    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1588153242335">
+    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1588165255715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588165255715" />
     <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
-    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1588153242335">
+    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1588165255716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588165255716" />
     <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
-    <state x="337" y="26" key="SettingsEditor" timestamp="1588073597426">
+    <state x="337" y="26" key="SettingsEditor" timestamp="1588165865122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="26" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588073597426" />
+    <state x="337" y="26" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588165865122" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582023679612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
