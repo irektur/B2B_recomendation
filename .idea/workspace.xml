@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9eb63e1-15fd-489f-aaed-a46d81e034a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Domax_B2B_recomendation/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pcg_domax_knn/GaussianMixture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domax_B2B_recomendation/givery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcg_domax_knn/cora.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcg_domax_knn/GaussianMixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/GaussianMixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pcg_domax_knn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pcg_domax_knn/cdm.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/cdm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pcg_domax_knn/knn_fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcg_domax_knn/knn_fit.py" afterDir="false" />
@@ -44,7 +45,7 @@
       <recent name="C:\Users\i.tur\PycharmProjects\Domax_b2b_recomendation\Domax_B2B_recomendation" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.givery (1)">
     <configuration name="GaussianMixture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Domax_b2b_recomendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Domax_b2b_recomendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pcg_domax_knn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Domax_B2B_recomendation/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pcg_domax_knn/cora.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nowy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="givery (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Domax_b2b_recomendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +121,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Domax_B2B_recomendation/nowy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Domax_B2B_recomendation/givery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="givery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Domax_b2b_recomendation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\i.tur\PycharmProjects\Domax_b2b_recomendation\Domax_B2B_recomendation\givery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,10 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.givery (1)" />
+        <item itemvalue="Python.givery" />
+        <item itemvalue="Python.cora" />
         <item itemvalue="Python.GaussianMixture" />
         <item itemvalue="Python.cdm" />
-        <item itemvalue="Python.nowy" />
       </list>
     </recent_temporary>
   </component>
@@ -164,34 +187,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="614" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582022366633" />
-    <state x="281" y="175" key="FileChooserDialogImpl" timestamp="1582027965733">
+    <state x="281" y="175" key="FileChooserDialogImpl" timestamp="1588152909358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="281" y="175" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582027965733" />
-    <state width="1899" height="463" key="GridCell.Tab.0.bottom" timestamp="1582639714331">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="463" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582552776794" />
-    <state width="1899" height="463" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582639714331" />
-    <state width="1899" height="463" key="GridCell.Tab.0.center" timestamp="1582639714331">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="463" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582552776793" />
-    <state width="1899" height="463" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582639714331" />
-    <state width="1899" height="463" key="GridCell.Tab.0.left" timestamp="1582639714331">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="463" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582552776793" />
-    <state width="1899" height="463" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582639714331" />
-    <state width="1899" height="463" key="GridCell.Tab.0.right" timestamp="1582639714331">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="463" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582552776793" />
-    <state width="1899" height="463" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582639714331" />
-    <state x="337" y="26" key="SettingsEditor" timestamp="1582545967713">
+    <state x="281" y="175" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588152909358" />
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom" timestamp="1588153242335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="26" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582545967713" />
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center" timestamp="1588153242335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left" timestamp="1588153242335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right" timestamp="1588153242335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588153242335" />
+    <state width="1899" height="313" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583237618487" />
+    <state x="337" y="26" key="SettingsEditor" timestamp="1588073597426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="26" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588073597426" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582023679612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

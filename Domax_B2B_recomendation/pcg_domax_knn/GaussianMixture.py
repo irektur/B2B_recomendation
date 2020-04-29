@@ -5,14 +5,12 @@ kon_do_przekazania = []
 
 def GaussianMixture_f (dane_do_GM, podaj_numer_kon):
     global kon_do_przekazania
-    CZY_KLIENT_B2B = pd.get_dummies(dane_do_GM['czy_klient_b2b'])
-    ZRODLO_DANYCH = pd.get_dummies(dane_do_GM['zrodlo_danych'])
-    KRAJEXPORT = pd.get_dummies(dane_do_GM['krajexport'])
+    KOD_KRAJU = pd.get_dummies(dane_do_GM['kod_kraju'])
     TYP = pd.get_dummies(dane_do_GM['typ'])
     STATUS = pd.get_dummies(dane_do_GM['status'])
 
-    dane_mod = pd.concat([dane_do_GM, CZY_KLIENT_B2B, ZRODLO_DANYCH, TYP, STATUS, KRAJEXPORT], axis=1)
-    dane_mod = dane_mod.drop(['czy_klient_b2b', 'zrodlo_danych', 'typ', 'status', 'krajexport'], axis=1)
+    dane_mod = pd.concat([dane_do_GM, KOD_KRAJU, TYP, STATUS], axis=1)
+    dane_mod = dane_mod.drop(['typ', 'status', 'kod_kraju'], axis=1)
     dane_mod = dane_mod.groupby(['numer_kontrahenta']).sum().reset_index()
    # dane_do_obliczen = dane_mod.drop(['numer_kontrahenta'], axis=1)
 

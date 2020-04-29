@@ -19,7 +19,7 @@ def krok_1_f(server, database, username, password):
 
     global krok_1_dane_GM
     krok_1_dane_GM = pd.read_sql_query(
-        '''SELECT NUMER_KONTRAHENTA ,CZY_KLIENT_B2B ,ZRODLO_DANYCH ,KRAJEXPORT ,typ ,STATUS 
+        '''SELECT NUMER_KONTRAHENTA , KOD_KRAJU, typ ,STATUS, ilosc
              FROM customers_KNN.dbo.krok_1_klasteryzacja''', cnxnn)
     cnxnn.close()
 
@@ -48,7 +48,7 @@ def kon_in(server, database, username, password):
 
     global kontrahent_indeksy
     kontrahent_indeksy = pd.read_sql_query(
-        '''SELECT distinct numer_kontrahenta, indeks_czesci_uslugi FROM customers_KNN.dbo.kontrahent_indeksy 
+        '''SELECT distinct numer_kontrahenta, indeks_czesci_uslugi, ilosc FROM customers_KNN.dbo.kontrahent_indeksy 
         where numer_kontrahenta > 9
 		and numer_kontrahenta in (select numer_kontrahenta from customers_KNN.dbo.jup_krok1_klasteryzacja)''', cnxn)
     cnxn.close()
@@ -102,12 +102,8 @@ def rekomendacje_f(server, database, username, password):
 
     global krok_1_dane_GM
     rekomendacje = pd.read_sql_query(
-                '''SELECT MARKA_HANDLOWA
-              ,typ
-              ,WL_NAZWA_SKR
-              ,INDEKS_CZESCI_USLUGI
-              ,NAZWA
-              ,ile_razy_detal
-              ,rn
+                '''SELECT 
+               INDEKS_CZESCI_USLUGI as INDEKS_CZESCI
+              ,ile_razy_detal as RANGA
           FROM customers_KNN.dbo.rekomendacje_podobnych''', cnxnn)
     cnxnn.close()
