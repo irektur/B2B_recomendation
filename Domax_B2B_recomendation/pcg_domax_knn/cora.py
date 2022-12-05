@@ -1,9 +1,9 @@
 import cx_Oracle
-Host_Name = '192.168.0.202'
+Host_Name = 
 Port_Number = '1521'
-s_name = 'bpsc'
-user = 'GVY'
-password='IeLoo1mukoFaiK3e'
+s_name = 
+user = 
+password=
 
 # usunięcie danych z tabeli dla klienta dla którego wykonujeny obliczenia
 def ora_krok_1_del(Host_Name,Port_Number,s_name,user,password, podaj_numer_kon):
