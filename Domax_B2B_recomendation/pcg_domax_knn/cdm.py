@@ -6,10 +6,10 @@ kontrahent_indeksy = []
 krok_1_dane_GM = []
 rekomendacje = []
 kupowane = []
-server = r'tcp:192.168.0.201'
-database = 'customers_KNN'
-username = 'KNN'
-password = 'aa@knN1'
+server = 
+database = 
+username = 
+password = 
 
 
 # czytaj tabelę customers_KNN.dbo.krok_1_klasteryzacja i zwróć do zmiennej
